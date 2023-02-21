@@ -202,23 +202,69 @@ nav{
     color: rgb(61, 57, 57);
     font-size: 22px;
 }
+.true{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5% 10%;
+    gap: 5%;
+}
 
 .seven img{
     height: 150px;
     display: flex;
+    margin: 2% 10%;
+    margin-bottom: 3%;
+}
+
+#op{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
+    margin: 5% 15%;
+}
+#op h4{
+    color: black;
+    font-weight: 400;
+}
+#op p{
+    color: rgb(82, 75, 75);
+}
+#op h5{
+    color: rgb(94, 84, 84);
+}
+#op h6{
+    color: rgb(37, 37, 150);
+}
+.nine img{
+    height: 150px;
+    display: flex;
     margin-bottom: 1%;
 }
-
-.seven h4{
-    color: black;
-    font-size: 15px;
-    margin-top: 3%;
+.eleven img{
+    height: 150px;
+    display: flex;
+    margin-bottom: 1%;
+}
+.lab{
+    margin: 4% 35%;
+}
+.lab h2{
+    color: rgb(27, 27, 124);
+}
+.lab p{
+    color: rgb(105, 93, 93);
+    margin-bottom: 3%;
+}
+.conti{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    margin: 5% 10%;
+}
+.conti h6{
+    margin-bottom: 2%;
 }
 
-.seven p{
-    color: rgb(65, 56, 56);
-    font-size: 15px;
+.footer-container{
+    background-color: black;
 }
-
-
-
